@@ -10,11 +10,14 @@
 		23875F011A80346F00C22C92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23875F001A80346F00C22C92 /* main.m */; };
 		23875F041A80346F00C22C92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23875F031A80346F00C22C92 /* AppDelegate.m */; };
 		23875F071A80346F00C22C92 /* InstagramFeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23875F051A80346F00C22C92 /* InstagramFeed.xcdatamodeld */; };
-		23875F0A1A80346F00C22C92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23875F091A80346F00C22C92 /* ViewController.m */; };
+		23875F0A1A80346F00C22C92 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23875F091A80346F00C22C92 /* FeedViewController.m */; };
 		23875F0D1A80346F00C22C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23875F0B1A80346F00C22C92 /* Main.storyboard */; };
 		23875F0F1A80346F00C22C92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23875F0E1A80346F00C22C92 /* Images.xcassets */; };
 		23875F121A80346F00C22C92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23875F101A80346F00C22C92 /* LaunchScreen.xib */; };
 		23875F1E1A80346F00C22C92 /* InstagramFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23875F1D1A80346F00C22C92 /* InstagramFeedTests.m */; };
+		23A95A291A81851A00D3BC9C /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A95A281A81851A00D3BC9C /* CommentsViewController.m */; };
+		23A95A2C1A81A76B00D3BC9C /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A95A2B1A81A76B00D3BC9C /* CustomTableViewCell.m */; };
+		23A95A5F1A82E8A500D3BC9C /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A95A5E1A82E8A500D3BC9C /* CommentTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +37,20 @@
 		23875F021A80346F00C22C92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23875F031A80346F00C22C92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		23875F061A80346F00C22C92 /* InstagramFeed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstagramFeed.xcdatamodel; sourceTree = "<group>"; };
-		23875F081A80346F00C22C92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23875F091A80346F00C22C92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23875F081A80346F00C22C92 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		23875F091A80346F00C22C92 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
 		23875F0C1A80346F00C22C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23875F0E1A80346F00C22C92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23875F111A80346F00C22C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		23875F171A80346F00C22C92 /* InstagramFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23875F1C1A80346F00C22C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23875F1D1A80346F00C22C92 /* InstagramFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramFeedTests.m; sourceTree = "<group>"; };
+		23A95A271A81851A00D3BC9C /* CommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
+		23A95A281A81851A00D3BC9C /* CommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsViewController.m; sourceTree = "<group>"; };
+		23A95A2A1A81A76B00D3BC9C /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		23A95A2B1A81A76B00D3BC9C /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		23A95A5D1A82E8A500D3BC9C /* CommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableViewCell.h; sourceTree = "<group>"; };
+		23A95A5E1A82E8A500D3BC9C /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +92,12 @@
 		23875EFD1A80346F00C22C92 /* InstagramFeed */ = {
 			isa = PBXGroup;
 			children = (
-				23875F021A80346F00C22C92 /* AppDelegate.h */,
-				23875F031A80346F00C22C92 /* AppDelegate.m */,
-				23875F081A80346F00C22C92 /* ViewController.h */,
-				23875F091A80346F00C22C92 /* ViewController.m */,
+				23A95A901A841EDE00D3BC9C /* CommentSection */,
+				23875F081A80346F00C22C92 /* FeedViewController.h */,
+				23875F091A80346F00C22C92 /* FeedViewController.m */,
+				23A95A2A1A81A76B00D3BC9C /* CustomTableViewCell.h */,
+				23A95A2B1A81A76B00D3BC9C /* CustomTableViewCell.m */,
 				23875F0B1A80346F00C22C92 /* Main.storyboard */,
-				23875F0E1A80346F00C22C92 /* Images.xcassets */,
-				23875F101A80346F00C22C92 /* LaunchScreen.xib */,
-				23875F051A80346F00C22C92 /* InstagramFeed.xcdatamodeld */,
 				23875EFE1A80346F00C22C92 /* Supporting Files */,
 			);
 			path = InstagramFeed;
@@ -99,6 +106,11 @@
 		23875EFE1A80346F00C22C92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23875F0E1A80346F00C22C92 /* Images.xcassets */,
+				23875F101A80346F00C22C92 /* LaunchScreen.xib */,
+				23875F051A80346F00C22C92 /* InstagramFeed.xcdatamodeld */,
+				23875F021A80346F00C22C92 /* AppDelegate.h */,
+				23875F031A80346F00C22C92 /* AppDelegate.m */,
 				23875EFF1A80346F00C22C92 /* Info.plist */,
 				23875F001A80346F00C22C92 /* main.m */,
 			);
@@ -120,6 +132,17 @@
 				23875F1C1A80346F00C22C92 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23A95A901A841EDE00D3BC9C /* CommentSection */ = {
+			isa = PBXGroup;
+			children = (
+				23A95A5D1A82E8A500D3BC9C /* CommentTableViewCell.h */,
+				23A95A5E1A82E8A500D3BC9C /* CommentTableViewCell.m */,
+				23A95A271A81851A00D3BC9C /* CommentsViewController.h */,
+				23A95A281A81851A00D3BC9C /* CommentsViewController.m */,
+			);
+			name = CommentSection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +247,10 @@
 			files = (
 				23875F041A80346F00C22C92 /* AppDelegate.m in Sources */,
 				23875F071A80346F00C22C92 /* InstagramFeed.xcdatamodeld in Sources */,
-				23875F0A1A80346F00C22C92 /* ViewController.m in Sources */,
+				23A95A2C1A81A76B00D3BC9C /* CustomTableViewCell.m in Sources */,
+				23A95A5F1A82E8A500D3BC9C /* CommentTableViewCell.m in Sources */,
+				23875F0A1A80346F00C22C92 /* FeedViewController.m in Sources */,
+				23A95A291A81851A00D3BC9C /* CommentsViewController.m in Sources */,
 				23875F011A80346F00C22C92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +442,7 @@
 				23875F231A80346F00C22C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23875F241A80346F00C22C92 /* Build configuration list for PBXNativeTarget "InstagramFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +451,7 @@
 				23875F261A80346F00C22C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
